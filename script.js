@@ -11,7 +11,6 @@ function increment() {
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr;
-    console.log(count);
+    countEl.textContent = 0;
+    count = 0;  //JS keeps track of our previous count hence the need to reset count to 0
 }
-// Google:
-// innerText alternative mdn
