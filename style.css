@@ -34,4 +34,7 @@ button {
 
 #save-btn {
     background: darkgreen;
+    display: block;
+    margin: auto;
+  
 }
